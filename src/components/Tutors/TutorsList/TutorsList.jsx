@@ -1,5 +1,6 @@
 import React from "react";
-import data from "../../../data/university.json";
+import PropTypes from 'prop-types';
+//import data from "../../../data/university.json";
 import {
   Container,
   Item,
@@ -9,14 +10,15 @@ import {
   Options,
 } from "./TutorsList.styled";
 
-function TutorsList() {
-  const { tutors } = data;
+
+function TutorsList({tutors}) {
+  // { tutors } = data;
   return (
     <Container>
       {tutors.map((tutor) => (
         <Item key={tutor.email}>
           <ItemInfo>
-            {tutor.lastName} {tutor.firstName} {tutor.patronymic}
+             {tutor.lastName}<br/>{tutor.firstName}<br/>{tutor.patronymic}
           </ItemInfo>
           <ItemContacts>
             <ItemContact>{tutor.phone}</ItemContact>
@@ -31,3 +33,7 @@ function TutorsList() {
 }
 
 export default TutorsList;
+
+TutorsList.propTypes = {
+  tutors: PropTypes.array,
+}
