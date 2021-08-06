@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/goit-react-practic2v/static/css/main.8670d679.chunk.css",
+    "main.js": "/goit-react-practic2v/static/js/main.59daba21.chunk.js",
+    "main.js.map": "/goit-react-practic2v/static/js/main.59daba21.chunk.js.map",
+    "runtime-main.js": "/goit-react-practic2v/static/js/runtime-main.e3125012.js",
+    "runtime-main.js.map": "/goit-react-practic2v/static/js/runtime-main.e3125012.js.map",
+    "static/js/2.7a7a3600.chunk.js": "/goit-react-practic2v/static/js/2.7a7a3600.chunk.js",
+    "static/js/2.7a7a3600.chunk.js.map": "/goit-react-practic2v/static/js/2.7a7a3600.chunk.js.map",
+    "index.html": "/goit-react-practic2v/index.html",
+    "static/css/main.8670d679.chunk.css.map": "/goit-react-practic2v/static/css/main.8670d679.chunk.css.map",
+    "static/js/2.7a7a3600.chunk.js.LICENSE.txt": "/goit-react-practic2v/static/js/2.7a7a3600.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3125012.js",
+    "static/js/2.7a7a3600.chunk.js",
+    "static/css/main.8670d679.chunk.css",
+    "static/js/main.59daba21.chunk.js"
+  ]
+}
